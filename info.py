@@ -13,8 +13,8 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
+API_ID = int(environ.get('API_ID', '26872474'))
+API_HASH = environ.get('API_HASH', 'f8d3a289bf28a13a7159ad0b2ed114e7')
 BOT_TOKEN = environ.get('BOT_TOKEN', "6392903211:AAG_9Pe_4GEBUGvF3TUQ8pOsadVW3zB6-WU")
 
 # Bot settings
@@ -61,7 +61,7 @@ GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+NVnjfMHZd6IwMzU1')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+G736Hq4FoQIwNDI1')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/How_to_Download_TnLinkk/21')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
-MSG_ALRT = environ.get('MSG_ALRT', 'Hello Nanbha JD Is Here'')
+MSG_ALRT = environ.get('MSG_ALRT', 'Hello Nanbha JD Is Here')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001792505125'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Professor JD')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
